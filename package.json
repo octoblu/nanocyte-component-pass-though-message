@@ -1,6 +1,6 @@
 {
-  "name": "nanocyte-component-pass-through-message-payload-config",
-  "version": "2.0.0",
+  "name": "nanocyte-component-pass-through-message-payload",
+  "version": "2.0.1",
   "description": "Nanocyte component pass-through-message-payload",
   "keywords": [
     "nanocyte",
