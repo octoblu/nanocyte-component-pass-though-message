@@ -1,14 +1,14 @@
 {
-  "name": "nanocyte-component-pass-though-message-config-config",
-  "version": "1.0.0",
-  "description": "Nanocyte component pass-though-message-config",
+  "name": "nanocyte-component-pass-through-message-payload-config",
+  "version": "2.0.0",
+  "description": "Nanocyte component pass-through-message-payload",
   "keywords": [
     "nanocyte",
     "octoblu",
     "meshblu"
   ],
-  "homepage": "https://github.com/octoblu/nanocyte-component-pass-though-message-config",
-  "bugs": "https://github.com/octoblu/nanocyte-component-pass-though-message-config/issues",
+  "homepage": "https://github.com/octoblu/nanocyte-component-pass-through-message-payload",
+  "bugs": "https://github.com/octoblu/nanocyte-component-pass-through-message-payload/issues",
   "author": {
     "name": "Octoblu",
     "url": "https://github.com/octoblu"
@@ -16,7 +16,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/octoblu/nanocyte-component-pass-though-message-config.git"
+    "url": "https://github.com/octoblu/nanocyte-component-pass-through-message-payload.git"
   },
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec --require coffee-coverage/register-istanbul"

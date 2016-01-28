@@ -1,7 +1,7 @@
 ReturnValue = require 'nanocyte-component-return-value'
 
-class PassThoughMessage extends ReturnValue
+class PassThroughMessagePayload extends ReturnValue
   onEnvelope: (envelope) =>
     return envelope.message.payload
 
-module.exports = PassThoughMessage
+module.exports = PassThroughMessagePayload

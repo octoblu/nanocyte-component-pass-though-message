@@ -1,9 +1,9 @@
 ReturnValue = require 'nanocyte-component-return-value'
-PassThoughMessage = require '../src/pass-though-message-config'
+PassThroughMessagePayload = require '../src/pass-through-message-payload'
 
-describe 'PassThoughMessage', ->
+describe 'PassThroughMessagePayload', ->
   beforeEach ->
-    @sut = new PassThoughMessage
+    @sut = new PassThroughMessagePayload
 
   it 'should exist', ->
     expect(@sut).to.be.an.instanceOf ReturnValue
