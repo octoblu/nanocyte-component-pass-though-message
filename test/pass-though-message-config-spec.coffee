@@ -1,5 +1,5 @@
 ReturnValue = require 'nanocyte-component-return-value'
-PassThoughMessage = require '../src/pass-though-message'
+PassThoughMessage = require '../src/pass-though-message-config'
 
 describe 'PassThoughMessage', ->
   beforeEach ->
@@ -10,5 +10,5 @@ describe 'PassThoughMessage', ->
 
   describe '->onEnvelope', ->
     describe 'when called with an envelope', ->
-      it 'should return the message', ->
-        expect(@sut.onEnvelope({message: 'anything'})).to.deep.equal 'anything'
+      it 'should return the payload', ->
+        expect(@sut.onEnvelope({message: payload: 'anything'})).to.deep.equal 'anything'

@@ -1,2 +1,2 @@
 require('coffee-script/register');
-module.exports = require('./src/pass-though-message');
+module.exports = require('./src/pass-though-message-config');
